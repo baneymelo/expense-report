@@ -1,0 +1,2 @@
+-Dsbt.server.forcestart=true
+-Djline.terminal=jline.UnixTerminal

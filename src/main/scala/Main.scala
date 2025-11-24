@@ -1,5 +1,8 @@
-@main def hello(): Unit =
-  println("Hello world!")
-  println(msg)
-
-def msg = "I was compiled by Scala 3. :)"
+@main def entryPoint(): Unit = {
+  println("Starting the program...")
+  /*
+  val dependencyInjection = DependencyInjection.builder.build()
+  val handler = dependencyInjection.createHan()
+  handler.run()
+  */
+}
