@@ -1,8 +1,16 @@
-## sbt project compiled with Scala 3
+# Expense report
+This application generates expenses report from bank statements.
+The application accepts CSV file and PDF that contains the information.
+
+## Requirements
+- Java 21 or higher
+- sbt 1.11.17 or higher
+- Scala 3.7.4 or higher
 
 ### Usage
 
-This is a normal sbt project. You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
+- compile: `sbt compile`
+- run: `sbt run` and `sbt console` 
 
-For more information on the sbt-dotty plugin, see the
-[scala3-example-project](https://github.com/scala/scala3-example-project/blob/main/README.md).
+### Testing
+- run tests: `sbt test`
