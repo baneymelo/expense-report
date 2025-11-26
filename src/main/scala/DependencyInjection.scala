@@ -1,5 +1,9 @@
 
 class DependencyInjection {
-    def buildHandler(): Unit = ???
+
+    def run(): Unit = {
+        val report: IReport = new Report()
+        report.create()
+    }
 }
 

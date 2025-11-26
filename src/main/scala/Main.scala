@@ -5,4 +5,6 @@
   val handler = dependencyInjection.createHan()
   handler.run()
   */
+  val di = DependencyInjection()
+  di.run()
 }
